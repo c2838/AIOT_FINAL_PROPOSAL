@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+.venv*/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+# npm project and canonical lockfile live in frontend/.
+/package-lock.json
+dist/
+build/
+backend/data/
+*.sqlite*
+*.log
+*.tsbuildinfo
+*.pem
+*.key
+*.pfx
+*.p12
+*credentials*.json
+*service-account*.json
